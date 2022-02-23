@@ -1,0 +1,9 @@
+MYNAME="WHO"
+
+mkdir $MYNAME
+
+touch $MYNAME/J.txt
+
+echo "My name is who" >> $MYNAME/J.txt
+
+echo "My name is what"

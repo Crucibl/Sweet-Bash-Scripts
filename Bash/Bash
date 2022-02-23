@@ -1,0 +1,5 @@
+NEWUSER=$1
+
+useradd $NEWUSER
+
+echo "Welcome to the party $NEWUSER !" >> /home/$NEWUSER/party.txt
